@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TASKS</title>
+</head>
+<body>
+<h1>Tasks</h1>
+
+<form action="/create_task" method="post">
+    <label for="description">Description:</label>
+    <input type="textarea" id="description" name="description"><br><br>
+
+    <label for="status">Status:</label>
+    <input type="textarea" id="status" name="status"><br><br>
+
+    <label for="createdDate">Created Date:</label>
+    <input type="date" id="createdDate" name="createdDate"><br><br>
+
+    <input type="submit" value="Create Task">
+</form>
+</body>
+</html>
